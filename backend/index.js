@@ -59,3 +59,5 @@ app.put("/completed", async function (req, res) {
         message: "Todo updated.",
     });
 });
+
+app.listen(3000);
